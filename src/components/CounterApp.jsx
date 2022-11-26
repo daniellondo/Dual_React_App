@@ -20,7 +20,7 @@ const CounterApp = () => {
   
   return (
     <div>
-      <h2>CounterApp</h2>
+      <h2 className='text-3xl'>CounterApp</h2>
       <DisplayNumber>{displayCounter}</DisplayNumber>
       <div>
         <Button funcion={decrement}>👇</Button>
