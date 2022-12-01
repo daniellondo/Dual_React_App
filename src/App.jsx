@@ -1,16 +1,15 @@
 import './App.css'
-import CounterApp from './components/CounterApp'
-import WeatherApp from './components/WeatherApp'
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Main from "./components/Main"
 
 function App() {
   return (
-    <div className="App">
-        <h1>Dual React App</h1>
-        <div className='container'>
-          <CounterApp></CounterApp>
-          <WeatherApp></WeatherApp>
-        </div>
-    </div>
+        <>
+        <Header/>
+        <Main/>
+        <Footer/>
+        </>
   )
 }
 

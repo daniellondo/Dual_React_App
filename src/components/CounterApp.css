@@ -1,0 +1,12 @@
+.name {
+    color: white;
+  }
+
+.icons{
+    --tw-bg-opacity: 1;
+    color: rgb(64 145 108 / var(--tw-bg-opacity));
+}
+
+.card{
+    background-color: rgb(64, 145, 108);
+}
