@@ -25,7 +25,7 @@ const CounterApp = () => {
     <div className='flex justify-center text-center flex-col rounded-lg card shadow-lg p-10 m-5'>
       <h2 className='text-4xl name'>Counter App</h2>
       <DisplayNumber>{displayCounter}</DisplayNumber>
-      <div>
+      <div className='flex'>
         <Button funcion={decrement}><BiDownArrowAlt className="icons" size={50}/></Button>
         <Button funcion={reset}><HiOutlineArrowPath className="icons" size={50}/></Button>
         <Button funcion={increment}><BiUpArrowAlt className="icons" size={50}/></Button>
