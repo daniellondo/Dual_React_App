@@ -22,7 +22,7 @@ const CounterApp = () => {
   }
   
   return (
-    <div className='flex justify-center text-center flex-col rounded-lg card shadow-lg p-10'>
+    <div className='flex justify-center text-center flex-col rounded-lg card shadow-lg p-10 m-5'>
       <h2 className='text-4xl name'>Counter App</h2>
       <DisplayNumber>{displayCounter}</DisplayNumber>
       <div>

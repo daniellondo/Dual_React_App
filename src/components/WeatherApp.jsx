@@ -60,9 +60,8 @@ const WeatherApp = () => {
 }
 
   return (
-    <div className="flex justify-between text-center flex-col rounded-lg weatherCard shadow-lg p-10">
+    <div className="flex justify-between text-center flex-col rounded-lg weatherCard shadow-lg p-10 ">
       <h2 className="text-4xl name pb-4">Weather App</h2>
-
       <form onSubmit={queryTemp}>
         <div className="relative">
           <div className="absolute inset-y-0 left-0 flex items-center pl-2 pointer-events-none pr-1">
@@ -82,7 +81,6 @@ const WeatherApp = () => {
         </div>
       </form>
       <br />
-
       {data !== null && (
         <div className="flex flex-col items-center bg-gray-300 border rounded-lg shadow-md md:flex-row md:max-w-xl">
           <div>
